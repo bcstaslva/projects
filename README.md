@@ -2,81 +2,133 @@
 
 A collection of front-end web development projects showcasing proficiency in HTML5, CSS3 (including Flexbox and CSS Variables), and JavaScript (DOM manipulation, event handling, and fundamental concepts).
 
-## Projects Overview:
+## ✨ Projects
 
-Each project focuses on specific front-end technologies and concepts, demonstrating practical application and problem-solving skills.
-
-### 1. Basketball Scoreboard
+### 1\. Basketball Scoreboard
 
 A dynamic and interactive scoreboard application.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3, JavaScript**
-* **DOM Manipulation**: `getElementById()`, `textContent`
-* **Event Handling**: `addEventListener()` with arrow functions
-* **Real-time Updates**: Score increment logic for +1, +2, +3 points
-* **Layout**: `flexbox` for responsive design
 
-### 2. Birthday Gift Site
+  * **Two Teams Score Tracking**: Separate scoreboards for "Home" and "Guess" teams.
+  * **Score Increment Buttons**: Each team has three buttons to add +1, +2, or +3 points.
+  * **Real-time Score Update**: Scores update instantly on click.
+  * **Custom Typography**: Utilizes Google Fonts for a distinct scoreboard aesthetic.
+  * **Responsive Layout**: Designed with `flexbox` for an adaptive layout.
 
-An interactive birthday gift site featuring engaging CSS styling.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3**
-* **Responsive Design**: `display: flex`, `flex-direction`, `align-items`
-* **Interactive UI**: `:hover` effects for revealing content
-* **Visual Enhancements**: `linear-gradient` backgrounds, custom fonts, `border-radius`, `text-shadow`
+### 2\. Birthday Gift Site
 
-### 3. Business Card
+A fun and interactive birthday gift site with engaging CSS styling.
 
-A simple digital business card demonstrating foundational HTML and CSS.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3**
-* **Layout**: `Flexbox` for responsive and clean alignment
-* **CSS Best Practices**: Shorthand properties, inheritance
-* **Accessibility**: Alt text for images
+  * **Responsive Design**: Uses `flexbox` for flexible and responsive layout.
+  * **Custom Fonts**: Imports "Happy Monkey" font for a playful feel.
+  * **Gradient Background**: Features a `linear-gradient` background.
+  * **Interactive Gifts**: Each gift box reveals a different animated GIF on `:hover`.
+  * **Text Shadow**: Adds `text-shadow` to headings and paragraphs.
 
-### 4. Google-Style Search Page
+### 3\. Business Card
 
-A front-end recreation of the classic Google search homepage.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3**
-* **Layout & Styling**: Centered layout using `Flexbox` and `margin: auto`
-* **UI Consistency**: Rounded corners, consistent input and button visuals
-* **Efficiency**: Shorthand CSS properties (`margin`, `padding`, `font-size`)
+A simple digital card for Bruno Costa da Silva — Fullstack Developer from São Paulo, Brazil.
 
-### 5. Bruno's Fun Profile Page
+  * **Alt Text**: Accessible image description for screen readers.
+  * **Flexbox**: Responsive layout with clean alignment.
+  * **Shorthands & Inheritance**: CSS best practices for simplicity and clarity.
+  * **Web-Safe Fonts**: Consistent rendering across devices.
+  * **Color Palette**: Light blue background with dark, readable text.
 
-A dynamic profile page with customizable themes and interactive visual preferences.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3, JavaScript**
-* **CSS Variables**: `:root` for controlling font themes, color modes, and border styles
-* **Dynamic Styling**: JavaScript functions (`favouriteMode()`, `favouriteEdgeStyle()`, etc.) for theme switching and image styling
-* **User Interaction**: Newsletter input field
+### 4\. Google-Style Search Page
 
-### 6. Space Exploration Hero Page
+A simple HTML/CSS recreation of the classic Google search homepage.
 
-A hero section inspired by SpaceX, focusing on custom fonts and background imagery.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3**
-* **Visual Design**: Full-width background images (`background-size: cover`), custom Google Fonts (`Orbitron`)
-* **Visual Hierarchy**: Prominent Call to Action (CTA) button, `text-shadow` for emphasis
-* **CSS Readability**: Shorthands for padding and font-weight
+  * **Centered Layout**: Logo, input, and buttons perfectly aligned using Flexbox and margin auto.
+  * **Shorthand & Inheritance**: Efficient use of CSS properties.
+  * **Consistent Styling**: Smooth input and button visuals with rounded corners.
+  * **No JavaScript**: 100% HTML/CSS for structure and style.
 
-### 7. Passenger Counter App
+### 5\. Bruno's Fun Profile Page
 
-A web application to count and log passenger entries.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3, JavaScript**
-* **DOM Manipulation**: Updating `textContent` of HTML elements based on user interaction
-* **Variables & Data Types**: `let` for storing counts (numbers) and DOM references
-* **Functions**: `increment()` and `save()` for encapsulating logic
-* **String Concatenation**: Formatting previous entries display
+A playful, dynamic profile page styled with custom fonts, themes, and interactive visual preferences.
 
-### 8. Hometown Homepage: Discover São Paulo
+  * **CSS Variables**: Font themes, color modes, and border styles controlled via CSS custom properties.
+  * **Image Styling**: Avatar uses `border-radius` with JavaScript-driven variation.
+  * **Dark & Light Mode**: Dynamically updates theme colors through `favouriteMode()`.
+  * **Fruit-Themed Palettes**: Fun color modes like "avocado", "watermelon", "tomato".
+  * **Genre-Based Fonts**: Change the vibe by setting a font style.
 
-An engaging homepage showcasing key attractions of São Paulo.
-**Key Technologies & Concepts:**
-* **HTML5, CSS3**
-* **Responsive Layout**: `display: flex`, `flex-direction`, `align-items`, `justify-content`
-* **Image Styling**: `border-radius: 100%` for circular images
-* **Visual Appeal**: Header with background image (`background-image`, `background-size: cover`), `text-shadow`
-* **Global Styling**: Universal selector (`*`) for consistent `margin`, `padding`, `box-sizing`
+### 6\. Space Exploration Hero Page
+
+A bold and futuristic landing section inspired by SpaceX visuals.
+
+  * **Hero Background**: Full-width galaxy image using `background-size: cover`.
+  * **Custom Font**: Uses Orbitron from Google Fonts for a tech-style look.
+  * **Call to Action**: Prominent "Apply" button styled with emphasis.
+  * **Shorthands & Readability**: Clean and concise CSS.
+  * **Web-Safe Font Fallback**: Includes `sans-serif` as a fallback.
+
+### 7\. Passenger Counter App
+
+A simple web application to count the number of people entering a location and log previous entries.
+
+  * **Increment Button**: Increases passenger count by one.
+  * **Save Button**: Records current count and resets to zero.
+  * **Previous Entries Display**: Shows a history of saved counts, separated by dashes.
+  * **Dynamic Content Updates**: Count and entries updated in real-time.
+
+### 8\. Hometown Homepage: Discover São Paulo
+
+A simple yet engaging homepage showcasing key attractions of São Paulo.
+
+  * **Header with Background Image**: Prominent header with a captivating background image.
+  * **Key Attractions Showcase**: Highlights three must-see places with images and descriptions.
+  * **Circular Images**: Images styled with `border-radius: 100%`.
+  * **Responsive Layout**: Utilizes `flexbox` for adaptive layout.
+  * **Consistent Styling**: Global styles applied using the universal selector (`*`).
+  * **Text Shadows**: Headings in the header feature `text-shadow`.
+
+## 🧾 Tech
+
+  * HTML5
+  * CSS3 (Flexbox, custom palettes, semantic structure, variables)
+  * JavaScript (DOM manipulation, event handling)
+
+## 📁 Structure
+
+```
+projects/
+├── basketball-scoreboard/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── birthday-gift/
+│   ├── index.html
+│   ├── styles.css
+│   └── images/
+│       └── ... (multiple images/gifs)
+├── business-card/
+│   ├── index.html
+│   ├── styles.css
+│   └── images/
+│       └── bruno.jpg
+├── google-search-clone/
+│   ├── index.html
+│   ├── styles.css
+│   └── google.png
+├── fun-profile/
+│   ├── index.html
+│   ├── styles.css
+│   ├── index.js
+│   └── bruno.png
+├── space-hero/
+│   ├── index.html
+│   ├── styles.css
+│   └── images/
+│       └── ... (images)
+├── passenger-counter/
+│   ├── index.html
+│   ├── index.css
+│   ├── index.js
+│   └── station.jpg
+└── hometown-homepage/
+    ├── index.html
+    ├── styles.css
+    └── images/
+        └── ... (multiple images)
+```
